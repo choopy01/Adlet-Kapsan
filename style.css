@@ -1,0 +1,110 @@
+body {
+  margin: 0;
+  font-family: 'Futura',sans-serif;
+  font-size: 15px;
+  line-height: 1.6;
+  color:#333
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+h1,h2,h3,h4,h5,h6{
+  margin: 0;
+}
+
+
+/* Container */
+.container{
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+
+
+/*intro */
+.intro{
+  width: 100%;
+  height: 100vh;
+  background: url(Lil-Peep-SoundCloud-rap-pioneer-who-fell-victim-to-the-drug-.jpg ) center no-repeat;
+  -webkit-background-size:cover;
+  background-size: cover;
+}
+/*header*/
+.header {
+    
+  width: 100%;
+    padding-top: 30px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+}
+
+.header__inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__logo{
+  font-size: 100px;
+  font-weight: 700;
+    color: deeppink;
+    font-family:sans-serif;
+}
+
+.nav {
+    font-size: 30px;
+    text-decoration: uppercase;
+font-family: 'Island Moments', sans-serif;
+}
+.nav__link {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 15px;
+    color: aliceblue;
+    text-decoration: none;
+    transition: color .2s linear;
+}
+
+.nav__link:after{
+    content: "";
+   
+    background-color: #fff;
+    
+}
+
+.nav__link:hover {
+    color: #fce38a;
+}
+.nav__link:hover:after{
+    display: block;
+}
+.Wlcm{
+    padding-top: 30px;
+}
+.text{
+    font-size: 50px;
+    padding-left: 40px;
+    font-family: 'Island Moments', cursive;
+}
+.Merch{
+    padding-top: 30px;
+    font-family: 'Island Moments', bold;
+    
+    font-size: 60px;
+
+}
+.pict{
+    width: 60%;
+    height: 300px;
+    padding-left: 70px;
+}
+.strt {
+    padding-left: 70px;
+}
